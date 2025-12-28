@@ -22,7 +22,7 @@ class AndroidEmulatorEngine : EmulatorEngine {
     }
 
     // Native functions
-    private external fun initNative(romBytes: ByteArray)
+    private external fun initNative(romBytes: ByteArray, consoleType: Int)
     private external fun runFrameNative(): IntArray? // Returns pixel array or null
     private external fun setControllerStateNative(up: Boolean, down: Boolean, left: Boolean, right: Boolean, a: Boolean, b: Boolean, start: Boolean, select: Boolean)
     private external fun getAudioSamplesNative(outBuffer: ShortArray): Int
@@ -30,8 +30,38 @@ class AndroidEmulatorEngine : EmulatorEngine {
     // external fun releaseNative()
 
     override fun init(romBytes: ByteArray) {
-        println("AndroidEmulatorEngine: init called with ${romBytes.size} bytes")
-        initNative(romBytes)
+        // Auto-detect console based on some logic or pass it in. 
+        // For now, let's assume we can intuit it, but actually the Engine interface doesn't strictly have 'consoleType'.
+        // We should update the interface or just autodetection.
+        // Wait, 'AndroidEmulatorEngine' implements 'EmulatorEngine'. 'EmulatorEngine.init' only takes bytes.
+        // We need to change the interface 'EmulatorEngine' to accept a Game object or console type,
+        // OR we detect it from the bytes headers (Magic numbers).
+        // NES header: "NES"
+        // Genesis header: "SEGA"
+        
+        // Let's implement header detection in Kotlin layer for simplicity before passing to native.
+        val consoleType = detectConsole(romBytes)
+        println("AndroidEmulatorEngine: init called with ${romBytes.size} bytes. Detected: $consoleType")
+        
+        // Configure AudioPlayer based on console
+        // NES (0) is Mono, Genesis (1) is Stereo
+        val isStereo = (consoleType == 1)
+        audioPlayer.configure(isStereo)
+        
+        initNative(romBytes, consoleType)
+    }
+    
+    private fun detectConsole(bytes: ByteArray): Int {
+        if (bytes.size < 4) return 0 // Default to NES
+        // Check for iNES header "NES\x1a"
+        if (bytes[0] == 0x4E.toByte() && bytes[1] == 0x45.toByte() && bytes[2] == 0x53.toByte() && bytes[3] == 0x1A.toByte()) {
+            return 0 // NES
+        }
+        // Check for Sega header (usually at 0x100)
+        // "SEGA GENESIS" or "SEGA MEGA DRIVE" usually appears.
+        // Simplified check: If not NES, assume GENESIS for now or add better check.
+        // Let's return 1 for Genesis if not NES.
+        return 1
     }
 
     override fun reset() {

@@ -8,14 +8,21 @@ import android.util.Log
 class AudioPlayer {
     private var audioTrack: AudioTrack? = null
     private val sampleRate = 44100 // LaiNES standard, though NES native is slightly different
-    private val channelConfig = AudioFormat.CHANNEL_OUT_MONO // NES is Mono (mostly)
     private val audioFormat = AudioFormat.ENCODING_PCM_16BIT
 
     init {
-        initAudioTrack()
+        // Default init
+        initAudioTrack(isStereo = false)
     }
 
-    private fun initAudioTrack() {
+    fun configure(isStereo: Boolean) {
+        release()
+        isReleased = false // Reset flag to allow playback
+        initAudioTrack(isStereo)
+    }
+
+    private fun initAudioTrack(isStereo: Boolean) {
+        val channelConfig = if (isStereo) AudioFormat.CHANNEL_OUT_STEREO else AudioFormat.CHANNEL_OUT_MONO
         val minBufferSize = AudioTrack.getMinBufferSize(
             sampleRate,
             channelConfig,
