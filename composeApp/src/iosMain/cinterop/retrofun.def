@@ -1,0 +1,2 @@
+headers = ios_bridge.h
+package = org.retrofun.project.cinterop

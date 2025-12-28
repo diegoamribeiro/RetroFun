@@ -1,5 +1,10 @@
 package org.retrofun.project.presentation.gamedetail
 
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -38,7 +43,16 @@ data class GameDetailScreen(val gameId: String) : Screen {
         }
 
         Scaffold(
-            topBar = { TopAppBar(title = { Text(state.game?.name ?: "Loading...") }) }
+            topBar = { 
+                TopAppBar(
+                    title = { Text(state.game?.name ?: "Loading...") },
+                    navigationIcon = {
+                        IconButton(onClick = { navigator?.pop() }) {
+                            Icon(Icons.Filled.ArrowBack, contentDescription = "Back")
+                        }
+                    }
+                ) 
+            }
         ) { padding ->
             Box(modifier = Modifier.padding(padding).fillMaxSize()) {
                 if (state.isLoading) {

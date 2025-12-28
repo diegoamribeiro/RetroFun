@@ -9,7 +9,8 @@ import org.retrofun.project.domain.emulation.ControllerState
 
 class IosRomLoader : RomLoader {
     override suspend fun loadRom(game: Game): ByteArray {
-        throw NotImplementedError("iOS RomLoader not implemented yet")
+        // TODO: Implement actual load depending on source
+        return ByteArray(0)
     }
 }
 

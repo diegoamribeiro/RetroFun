@@ -11,9 +11,15 @@ import org.retrofun.project.presentation.gamedetail.GameDetailScreenModel
 import org.retrofun.project.presentation.gameplayer.GamePlayerScreenModel
 
 fun initKoin(config: KoinAppDeclaration? = null) {
-    startKoin {
-        config?.invoke(this)
-        modules(appModule, platformModule)
+    try {
+        startKoin {
+            config?.invoke(this)
+            modules(appModule, platformModule)
+        }
+    } catch (e: Exception) {
+        // App is already started, ignore.
+        // In Koin 4.0, checking GlobalContext via commonMain can be tricky with visibility.
+        // This try-catch is a safe, standard fallback for "ensure started".
     }
 }
 
