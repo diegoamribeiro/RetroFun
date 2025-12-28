@@ -29,6 +29,7 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            implementation(libs.koin.android)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -37,8 +38,18 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-            implementation(libs.androidx.lifecycle.viewmodelCompose)
+            implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+            
+            // Koin
+            implementation(libs.koin.core)
+            implementation(libs.koin.compose)
+            
+            // Voyager
+            implementation(libs.voyager.navigator)
+            implementation(libs.voyager.screenModel)
+            implementation(libs.voyager.transitions)
+            implementation(libs.voyager.koin)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -70,6 +81,13 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+    
+    externalNativeBuild {
+        cmake {
+            path = file("src/androidMain/cpp/CMakeLists.txt")
+            version = "3.22.1"
+        }
     }
 }
 
