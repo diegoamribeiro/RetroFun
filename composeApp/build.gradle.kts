@@ -23,6 +23,13 @@ kotlin {
             baseName = "ComposeApp"
             isStatic = true
         }
+        iosTarget.compilations.getByName("main") {
+            val retrofun by cinterops.creating {
+                defFile("src/iosMain/cinterop/retrofun.def")
+                packageName("org.retrofun.project.cinterop")
+                includeDirs("src/androidMain/cpp")
+            }
+        }
     }
     
     sourceSets {

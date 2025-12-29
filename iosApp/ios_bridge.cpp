@@ -9,11 +9,6 @@ void ios_init(int consoleType, const char* romPath) {
     EmulatorContext::getInstance().init(consoleType, romPath, nullptr, 0);
 }
 
-void ios_init_data(int consoleType, const void* data, int size) {
-    EmulatorContext::getInstance().init(consoleType, "memory_rom", (const uint8_t*)data, (size_t)size);
-}
-
-
 void ios_run_frame(int* pixels, int width, int height) {
     int w = width;
     int h = height;

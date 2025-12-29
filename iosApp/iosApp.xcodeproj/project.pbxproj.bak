@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0894C122D2BAC144CE06E530 /* mapper24.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CE64E0AF5341709AE5FA0 /* mapper24.cpp */; };
-		08EE0CEBA8C07781C9B401C7 /* mapper66.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A280B332E0AA2C9FC3FDAE8B /* mapper66.cpp */; };
-		18305A4AA66877CFEF99D060 /* Blip_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2978BD60205309FB4AEADF2F /* Blip_Buffer.cpp */; };
-		218E5E6C39B6C3629E22ABE6 /* cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D355D04318729262FC798F84 /* cpu.cpp */; };
-		23146E8118D4030BD7DC04FB /* joypad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86A2805E62C1A7B842BD1603 /* joypad.cpp */; };
-		36C745D86E9AE2FE5ED08418 /* mapper1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C02CD8616035EEEBE8380 /* mapper1.cpp */; };
-		37A675B0169BEAE8C0B77A64 /* mapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC40E43FB536E53F45F98986 /* mapper.cpp */; };
-		42D3BD8EE2766589158D4B44 /* apu_snapshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B43F0B2BC45A3659655D6656 /* apu_snapshot.cpp */; };
-		5F8BB2C54A1BC7ECF489A45C /* Multi_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 950DAAF3C031727803A5E0BD /* Multi_Buffer.cpp */; };
-		603C200CF627E70A992F6A0E /* Nes_Namco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E129A56E58658EB479B22FF3 /* Nes_Namco.cpp */; };
+		010351037AED8C0E7512195D /* mapper11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C14B8DDA46983B9038AC94F3 /* mapper11.cpp */; };
+		0669D0E65818ED9414481297 /* mapper5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0EEF3F171A87F6FAE6EC35A /* mapper5.cpp */; };
+		0CF4B10D522ECEE29D6DF55E /* mapper10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E524A21F8790B39CAEE99F9A /* mapper10.cpp */; };
+		0D9330FF71BC7577560F6628 /* cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 743D11261C36C9ADE20BFEE9 /* cpu.cpp */; };
+		18BE50D260EDEFE6D2F56970 /* mapper2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 962A2B8563B53992BC5BE56A /* mapper2.cpp */; };
+		3F6D84B06C0004CE08B583F7 /* mapper34.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B16C13A23EBEF9020644AB9 /* mapper34.cpp */; };
+		475BB76404042B739630E573 /* mapper24.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3034D8F1E13C4B33D69E976 /* mapper24.cpp */; };
+		4A634533A56006755716D41E /* Nes_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CC37B02D626C6E867B7617 /* Nes_Apu.cpp */; };
+		4F3BBE575ABD8E00FAB6D095 /* apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9FEB7555576151F287F0B6 /* apu.cpp */; };
+		59FAA742997877C05013AD95 /* mapper3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 227A36F82FD645979B1B7D2A /* mapper3.cpp */; };
 		628339446CB5F8E32E20764F /* ios_bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB57C49004D2C8556739F24A /* ios_bridge.cpp */; };
-		65F778B5A9697E32BC5BC0F6 /* savestate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C52A51CA8B5A2ECDB7FC827D /* savestate.cpp */; };
-		689A9840770ABA082D42E25E /* mapper4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7750B63F593AF779CC15E80D /* mapper4.cpp */; };
-		74942930BB3BC9BB4707442F /* mapper7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326F0D78E5153AF895180E8D /* mapper7.cpp */; };
-		7A597DAD062D80273B5CE96A /* mapper34.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4874BFC710C40F14043AC29 /* mapper34.cpp */; };
-		876C08F7BB4214D5DF54251B /* mapper3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5ABA8306E9D01CE6C00F552 /* mapper3.cpp */; };
+		6764B9484377005E6DD54F2A /* Nes_Vrc6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 844D2DAEB3B28503FDCF2A94 /* Nes_Vrc6.cpp */; };
+		691FB9DBC454B17D0DD22F44 /* Nes_Oscs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A38ECF6802DB0E6FD0163 /* Nes_Oscs.cpp */; };
+		7B5A91BAA158B95EE7014DE6 /* cartridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7D5E94D463131AEDC71C65B /* cartridge.cpp */; };
+		83703BA04951D128B6056C6F /* apu_snapshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B04C271D5713533B031DE25 /* apu_snapshot.cpp */; };
 		96F66145558548CBA812E5CE /* emulator_context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250B60B3EEE07BB0F7BF2600 /* emulator_context.cpp */; };
-		9CEAABD6F535E20A05FF85DC /* mapper5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE22E2637F5DD9482CB07B27 /* mapper5.cpp */; };
-		A972340A237381E9B5517D54 /* ppu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B89A9FA4C89F5AC6D31530D /* ppu.cpp */; };
-		AAED84218A00C95080F22138 /* mapper10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 778E93D9F5271D4A05114571 /* mapper10.cpp */; };
-		AFECBFFE0E05CDB26C7A449C /* mapper9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB6045B98CF47B92FC234549 /* mapper9.cpp */; };
-		CE0E46BEFD06E31553DDA13A /* Nes_Vrc6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0CA126308D83122FDD88A7C /* Nes_Vrc6.cpp */; };
-		CF4CCB884770766EA472A608 /* Nes_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0375B3ADF56D4C9C3913C14E /* Nes_Apu.cpp */; };
-		D3DEDA7501A6536BA65D69DF /* cartridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5CE9A40A6C4E12DEBE80947 /* cartridge.cpp */; };
-		D54CA55527715D968E3A7F9E /* apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB12128F7CB59AF41618C7BD /* apu.cpp */; };
-		E952609706EB22D072DE1751 /* Nonlinear_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34757825D2AF31BEF729F06F /* Nonlinear_Buffer.cpp */; };
-		E990D9D25B1D8AB289350DA8 /* mapper2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20C54192CEDDCE90999B451 /* mapper2.cpp */; };
-		ECB274CBF4BC774AFC89437B /* Nes_Oscs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 964DBB0507E6CDABBBD05A64 /* Nes_Oscs.cpp */; };
-		EE51F207A95E6FDAC96824E0 /* mapper11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D5AC9330BDE0CA6E6D420C /* mapper11.cpp */; };
+		9E74B2727000E6B350CA8FA5 /* savestate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B10A5959E2757A3B9ECD210 /* savestate.cpp */; };
+		A406CAF0025C512E238C27EB /* Nes_Namco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 829CDC6E39996DE7AE6A5723 /* Nes_Namco.cpp */; };
+		A48E54F4EC331BB26C2A1EB1 /* mapper4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 734C5E096812BB98DE2DE65A /* mapper4.cpp */; };
+		A61C6F2151651E72757E0854 /* Multi_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E92D7F84DEA8F879B25325E /* Multi_Buffer.cpp */; };
+		AC08B3AA06D085D9B2FD19EE /* ppu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04E997F647D8F21057354A0C /* ppu.cpp */; };
+		B2780C6491F6AC6163520CC5 /* mapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E706D01FE0985E11ECFD01AA /* mapper.cpp */; };
+		B3C10CCF59AF1FC3C085B46E /* mapper9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A533D25E86AC0B1145EFFF4D /* mapper9.cpp */; };
+		CD413F07B1F351E26EFC2A86 /* Nonlinear_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2AD3B74995549D74EA11D /* Nonlinear_Buffer.cpp */; };
+		DEA9F30146C6FA90CFF139E4 /* mapper7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBC777D1C6EC7DD6826003 /* mapper7.cpp */; };
+		E4FACF36AE37AFFDA2FB6403 /* mapper1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E92BCC8A58F4BDE756730488 /* mapper1.cpp */; };
+		F25C9D1DA4B08115A9911E28 /* mapper66.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2381A2AD61372FE686466C7 /* mapper66.cpp */; };
+		F514F3B7D7A6D5FBCDADD043 /* joypad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63CF3F5AD8113D3D6A808026 /* joypad.cpp */; };
+		F73812F4191B0759689EA787 /* Blip_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A767502805F6DFCE516F8210 /* Blip_Buffer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,10 +43,11 @@
 		008047660A08166AE58D37B2 /* yx5200.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = yx5200.c; path = genesis_plus_gx/core/cart_hw/yx5200.c; sourceTree = "<group>"; };
 		00F5FC673C532065AACBDC36 /* gzlog.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzlog.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/examples/gzlog.c"; sourceTree = "<group>"; };
 		0326BD14A01C967C42F5BC42 /* gzlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzlib.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/gzlib.c"; sourceTree = "<group>"; };
-		0375B3ADF56D4C9C3913C14E /* Nes_Apu.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nes_Apu.cpp; path = laines/lib/Nes_Apu.cpp; sourceTree = "<group>"; };
 		04C7DB9E19BEDFCC434638AC /* gun.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gun.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/examples/gun.c"; sourceTree = "<group>"; };
+		04E997F647D8F21057354A0C /* ppu.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ppu.cpp; path = laines/src/ppu.cpp; sourceTree = "<group>"; };
 		0735A992F9773D5972F8B782 /* divsufsort.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = divsufsort.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/dictBuilder/divsufsort.c"; sourceTree = "<group>"; };
 		074E9501469C9287A3410307 /* membnk.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = membnk.c; path = genesis_plus_gx/core/membnk.c; sourceTree = "<group>"; };
+		07A2AD3B74995549D74EA11D /* Nonlinear_Buffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nonlinear_Buffer.cpp; path = laines/lib/Nonlinear_Buffer.cpp; sourceTree = "<group>"; };
 		084B7D0B7C921AA1DEB7B376 /* gzwrite.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzwrite.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/gzwrite.c"; sourceTree = "<group>"; };
 		0871D43D764A60120844D33A /* harness.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = harness.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/doc/educational_decoder/harness.c"; sourceTree = "<group>"; };
 		08B2B4F56F076860ED6A6922 /* mdct.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mdct.c; path = genesis_plus_gx/core/sound/tremor/mdct.c; sourceTree = "<group>"; };
@@ -60,25 +61,22 @@
 		18C61E9DBEAB455FF4EEBBA8 /* Bra86.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Bra86.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/lzma-24.05/src/Bra86.c"; sourceTree = "<group>"; };
 		1CA64FBEFFE8F82DE6713571 /* svp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = svp.c; path = genesis_plus_gx/core/cart_hw/svp/svp.c; sourceTree = "<group>"; };
 		1E73857C17FAAC56D22E5EC2 /* example.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = example.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/test/example.c"; sourceTree = "<group>"; };
+		1F2A38ECF6802DB0E6FD0163 /* Nes_Oscs.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nes_Oscs.cpp; path = laines/lib/Nes_Oscs.cpp; sourceTree = "<group>"; };
 		2154BFF5155896A8672CA6D9 /* infcover.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = infcover.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/test/infcover.c"; sourceTree = "<group>"; };
+		227A36F82FD645979B1B7D2A /* mapper3.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper3.cpp; path = laines/src/mappers/mapper3.cpp; sourceTree = "<group>"; };
 		2317DBCB21C68327C914F2F0 /* libchdr_chd.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = libchdr_chd.c; path = genesis_plus_gx/core/cd_hw/libchdr/src/libchdr_chd.c; sourceTree = "<group>"; };
 		250B60B3EEE07BB0F7BF2600 /* emulator_context.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = emulator_context.cpp; sourceTree = "<group>"; };
 		260C45BF8619BF9E2C1D09F4 /* zstd_v07.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zstd_v07.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/legacy/zstd_v07.c"; sourceTree = "<group>"; };
 		28EF6D493EF31E91F2D47A00 /* cdd.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cdd.c; path = genesis_plus_gx/core/cd_hw/cdd.c; sourceTree = "<group>"; };
-		2978BD60205309FB4AEADF2F /* Blip_Buffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Blip_Buffer.cpp; path = laines/lib/Blip_Buffer.cpp; sourceTree = "<group>"; };
 		2B1E17B556C23CBA5ABD7F92 /* BraIA64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BraIA64.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/lzma-24.05/src/BraIA64.c"; sourceTree = "<group>"; };
-		2C8C02CD8616035EEEBE8380 /* mapper1.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper1.cpp; path = laines/src/mappers/mapper1.cpp; sourceTree = "<group>"; };
 		2D018B6E9973D09101740A26 /* cpuhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cpuhook.c; path = genesis_plus_gx/core/debug/cpuhook.c; sourceTree = "<group>"; };
 		303519815A4CE522C7033A4B /* flash_cfi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = flash_cfi.c; path = genesis_plus_gx/core/cart_hw/flash_cfi.c; sourceTree = "<group>"; };
 		30733634F432733F6782FFAB /* memz80.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = memz80.c; path = genesis_plus_gx/core/memz80.c; sourceTree = "<group>"; };
-		326F0D78E5153AF895180E8D /* mapper7.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper7.cpp; path = laines/src/mappers/mapper7.cpp; sourceTree = "<group>"; };
 		32AD2812927A0BDC7CF429D2 /* gzclose.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzclose.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/gzclose.c"; sourceTree = "<group>"; };
 		330B4C880A6E73E29836F271 /* eeprom_i2c.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = eeprom_i2c.c; path = genesis_plus_gx/core/cart_hw/eeprom_i2c.c; sourceTree = "<group>"; };
-		34757825D2AF31BEF729F06F /* Nonlinear_Buffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nonlinear_Buffer.cpp; path = laines/lib/Nonlinear_Buffer.cpp; sourceTree = "<group>"; };
 		34F6B0AAE73E420B5C049A6A /* Alloc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Alloc.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/lzma-24.05/src/Alloc.c"; sourceTree = "<group>"; };
 		36A40130A7CE6328B360D5D3 /* ggenie.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ggenie.c; path = genesis_plus_gx/core/cart_hw/ggenie.c; sourceTree = "<group>"; };
 		3842FE5F53A0EDF503C7465F /* vdp_render.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdp_render.c; path = genesis_plus_gx/core/vdp_render.c; sourceTree = "<group>"; };
-		39D5AC9330BDE0CA6E6D420C /* mapper11.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper11.cpp; path = laines/src/mappers/mapper11.cpp; sourceTree = "<group>"; };
 		3C182E99273331099A9DA15D /* cover.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cover.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/dictBuilder/cover.c"; sourceTree = "<group>"; };
 		3CBB76BA2DDDC8CE6E1E4DC2 /* LzmaEnc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = LzmaEnc.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/lzma-24.05/src/LzmaEnc.c"; sourceTree = "<group>"; };
 		3D8BB95D70A60D9A19ECEEAD /* window.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = window.c; path = genesis_plus_gx/core/sound/tremor/window.c; sourceTree = "<group>"; };
@@ -86,6 +84,8 @@
 		469B53430BA26E7B32E47FE5 /* emulator_context.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = emulator_context.hpp; sourceTree = "<group>"; };
 		47922030F0AA52CE48C14514 /* inffast.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inffast.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/inffast.c"; sourceTree = "<group>"; };
 		4A2E221E9F2E002E3FD10CE6 /* scd.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scd.c; path = genesis_plus_gx/core/cd_hw/scd.c; sourceTree = "<group>"; };
+		4B04C271D5713533B031DE25 /* apu_snapshot.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = apu_snapshot.cpp; path = laines/lib/apu_snapshot.cpp; sourceTree = "<group>"; };
+		4B10A5959E2757A3B9ECD210 /* savestate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = savestate.cpp; path = laines/src/savestate.cpp; sourceTree = "<group>"; };
 		4D9E113CDAAE5A11BD386F98 /* input.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = input.c; path = genesis_plus_gx/core/input_hw/input.c; sourceTree = "<group>"; };
 		4EF5B68DBB1039B0CA651D67 /* res012.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = res012.c; path = genesis_plus_gx/core/sound/tremor/res012.c; sourceTree = "<group>"; };
 		4FDB62D3FA0A26B033A76AD2 /* io_ctrl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = io_ctrl.c; path = genesis_plus_gx/core/io_ctrl.c; sourceTree = "<group>"; };
@@ -99,14 +99,13 @@
 		5A34066E4EFBE1E115B82804 /* cdc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cdc.c; path = genesis_plus_gx/core/cd_hw/cdc.c; sourceTree = "<group>"; };
 		5AD7AA28E97707B13007AAD4 /* zbuff_compress.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zbuff_compress.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/deprecated/zbuff_compress.c"; sourceTree = "<group>"; };
 		5B41A456B5591C36E42D6D25 /* vdp_ctrl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdp_ctrl.c; path = genesis_plus_gx/core/vdp_ctrl.c; sourceTree = "<group>"; };
-		5B89A9FA4C89F5AC6D31530D /* ppu.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ppu.cpp; path = laines/src/ppu.cpp; sourceTree = "<group>"; };
-		5D1CE64E0AF5341709AE5FA0 /* mapper24.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper24.cpp; path = laines/src/mappers/mapper24.cpp; sourceTree = "<group>"; };
 		5D9697F5D999D44A65A2DD63 /* areplay.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = areplay.c; path = genesis_plus_gx/core/cart_hw/areplay.c; sourceTree = "<group>"; };
 		5E0A7259FBE7B9C54578D4C8 /* huf_decompress.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = huf_decompress.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/decompress/huf_decompress.c"; sourceTree = "<group>"; };
 		5E5544FAA8B7851BD048FBB2 /* Bra.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Bra.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/lzma-24.05/src/Bra.c"; sourceTree = "<group>"; };
 		6008634CC114849CA4378B3C /* codebook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = codebook.c; path = genesis_plus_gx/core/sound/tremor/codebook.c; sourceTree = "<group>"; };
 		6175BAF9DB45B8516924B1CA /* libchdr_huffman.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = libchdr_huffman.c; path = genesis_plus_gx/core/cd_hw/libchdr/src/libchdr_huffman.c; sourceTree = "<group>"; };
 		61F9B1A8B49737A4248D247E /* xxhash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = xxhash.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/common/xxhash.c"; sourceTree = "<group>"; };
+		63CF3F5AD8113D3D6A808026 /* joypad.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = joypad.cpp; path = laines/src/joypad.cpp; sourceTree = "<group>"; };
 		65AD07B2D9F7018C2DE2268D /* benchmark.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = benchmark.c; path = genesis_plus_gx/core/cd_hw/libchdr/tests/benchmark.c; sourceTree = "<group>"; };
 		65C50FDBA8180DBC4C8ED255 /* inflate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inflate.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/inflate.c"; sourceTree = "<group>"; };
 		67BECCC0717A02AF83992DC1 /* osd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = osd.h; sourceTree = "<group>"; };
@@ -120,105 +119,106 @@
 		6DCA310020C889EE8A1CE090 /* zutil.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zutil.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/zutil.c"; sourceTree = "<group>"; };
 		6E7D4ABAEA6B6E4FFA08C727 /* xe_1ap.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = xe_1ap.c; path = genesis_plus_gx/core/input_hw/xe_1ap.c; sourceTree = "<group>"; };
 		7271B7302C72B9ED00541767 /* mem68k.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem68k.c; path = genesis_plus_gx/core/mem68k.c; sourceTree = "<group>"; };
+		734C5E096812BB98DE2DE65A /* mapper4.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper4.cpp; path = laines/src/mappers/mapper4.cpp; sourceTree = "<group>"; };
+		743D11261C36C9ADE20BFEE9 /* cpu.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = cpu.cpp; path = laines/src/cpu.cpp; sourceTree = "<group>"; };
 		75E6B920BFF64F423BCC2637 /* deflate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = deflate.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/deflate.c"; sourceTree = "<group>"; };
 		761261391A858528E29C4659 /* lightgun.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lightgun.c; path = genesis_plus_gx/core/input_hw/lightgun.c; sourceTree = "<group>"; };
 		762E87D6C4FA38E08477C225 /* gamepad.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gamepad.c; path = genesis_plus_gx/core/input_hw/gamepad.c; sourceTree = "<group>"; };
 		764C154C5E32E71C0DED8893 /* simple.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = simple.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/build/single_file_libs/examples/simple.c"; sourceTree = "<group>"; };
 		774FAECD63BADB5EA7FCCF17 /* eeprom_93c.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = eeprom_93c.c; path = genesis_plus_gx/core/cart_hw/eeprom_93c.c; sourceTree = "<group>"; };
-		7750B63F593AF779CC15E80D /* mapper4.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper4.cpp; path = laines/src/mappers/mapper4.cpp; sourceTree = "<group>"; };
-		778E93D9F5271D4A05114571 /* mapper10.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper10.cpp; path = laines/src/mappers/mapper10.cpp; sourceTree = "<group>"; };
 		78E820900A4E59C3F4A50EDD /* roundtrip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = roundtrip.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/build/single_file_libs/examples/roundtrip.c"; sourceTree = "<group>"; };
 		7A58BF061A7BCFECC61696E2 /* zstd_v03.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zstd_v03.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/legacy/zstd_v03.c"; sourceTree = "<group>"; };
 		7A93466ED949A1E6C480C98F /* mapping0.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mapping0.c; path = genesis_plus_gx/core/sound/tremor/mapping0.c; sourceTree = "<group>"; };
+		7B16C13A23EBEF9020644AB9 /* mapper34.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper34.cpp; path = laines/src/mappers/mapper34.cpp; sourceTree = "<group>"; };
 		7BCCCEE37E36B96B3B91A821 /* z80.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = z80.c; path = genesis_plus_gx/core/z80/z80.c; sourceTree = "<group>"; };
 		7E44A17F4005B4B41C70961E /* Sort.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Sort.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/lzma-24.05/src/Sort.c"; sourceTree = "<group>"; };
 		7F2B0210D4538688B37A8D5A /* blip_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = blip_buf.c; path = genesis_plus_gx/core/sound/blip_buf.c; sourceTree = "<group>"; };
 		7F5002DB266C2E79B41BCA2D /* uncompr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = uncompr.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/uncompr.c"; sourceTree = "<group>"; };
+		7FFBC777D1C6EC7DD6826003 /* mapper7.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper7.cpp; path = laines/src/mappers/mapper7.cpp; sourceTree = "<group>"; };
 		81F6BC970239CD9E2F8D694B /* mouse.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mouse.c; path = genesis_plus_gx/core/input_hw/mouse.c; sourceTree = "<group>"; };
 		8211853ADE73C605B92C1F21 /* fse_decompress.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fse_decompress.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/common/fse_decompress.c"; sourceTree = "<group>"; };
+		829CDC6E39996DE7AE6A5723 /* Nes_Namco.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nes_Namco.cpp; path = laines/lib/Nes_Namco.cpp; sourceTree = "<group>"; };
 		82CEDBA8E1970CD60C8EB06D /* adler32.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = adler32.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/adler32.c"; sourceTree = "<group>"; };
 		82D9D7479B1D15964DE86338 /* zbuff_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zbuff_common.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/deprecated/zbuff_common.c"; sourceTree = "<group>"; };
 		82E6A52281421102FFC06F98 /* inftrees.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inftrees.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/inftrees.c"; sourceTree = "<group>"; };
 		838D167752FE5243726D1DD6 /* bitwise.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = bitwise.c; path = genesis_plus_gx/core/sound/tremor/bitwise.c; sourceTree = "<group>"; };
 		83BB463B5C5DB341B5E48E95 /* sram.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sram.c; path = genesis_plus_gx/core/cart_hw/sram.c; sourceTree = "<group>"; };
+		844D2DAEB3B28503FDCF2A94 /* Nes_Vrc6.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nes_Vrc6.cpp; path = laines/lib/Nes_Vrc6.cpp; sourceTree = "<group>"; };
 		85DCDABA873F264C08D77D2A /* ios_bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ios_bridge.h; sourceTree = "<group>"; };
-		86A2805E62C1A7B842BD1603 /* joypad.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = joypad.cpp; path = laines/src/joypad.cpp; sourceTree = "<group>"; };
 		86AB94095C0F79287D46433E /* registry.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = registry.c; path = genesis_plus_gx/core/sound/tremor/registry.c; sourceTree = "<group>"; };
 		89D051FAC693F98EA296A01C /* CpuArch.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = CpuArch.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/lzma-24.05/src/CpuArch.c"; sourceTree = "<group>"; };
 		8A79C5308E38F3262318CC9D /* fastcover.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fastcover.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/dictBuilder/fastcover.c"; sourceTree = "<group>"; };
 		8B8A255466C8AA8A5709399E /* gfx.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gfx.c; path = genesis_plus_gx/core/cd_hw/gfx.c; sourceTree = "<group>"; };
 		8C3A82105246DE9A2A7FB489 /* eq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = eq.c; path = genesis_plus_gx/core/sound/eq.c; sourceTree = "<group>"; };
 		8E4ED30A6765CFA470561EE1 /* ym2413.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ym2413.c; path = genesis_plus_gx/core/sound/ym2413.c; sourceTree = "<group>"; };
+		8E92D7F84DEA8F879B25325E /* Multi_Buffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Multi_Buffer.cpp; path = laines/lib/Multi_Buffer.cpp; sourceTree = "<group>"; };
 		9128518EBDF305DE1F87E51A /* infback.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = infback.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/infback.c"; sourceTree = "<group>"; };
 		93A7B7C549567C60EB7F5087 /* entropy_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = entropy_common.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/common/entropy_common.c"; sourceTree = "<group>"; };
-		950DAAF3C031727803A5E0BD /* Multi_Buffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Multi_Buffer.cpp; path = laines/lib/Multi_Buffer.cpp; sourceTree = "<group>"; };
 		95E06C46C66EF792E573C9A7 /* fuzz.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fuzz.c; path = genesis_plus_gx/core/cd_hw/libchdr/tests/fuzz.c; sourceTree = "<group>"; };
 		9614413B361EFFDE299125AA /* s68kcpu.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = s68kcpu.c; path = genesis_plus_gx/core/m68k/s68kcpu.c; sourceTree = "<group>"; };
-		964DBB0507E6CDABBBD05A64 /* Nes_Oscs.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nes_Oscs.cpp; path = laines/lib/Nes_Oscs.cpp; sourceTree = "<group>"; };
+		962A2B8563B53992BC5BE56A /* mapper2.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper2.cpp; path = laines/src/mappers/mapper2.cpp; sourceTree = "<group>"; };
 		971CBB3C942A0C5AA2F8E511 /* genesis_core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = genesis_core.hpp; sourceTree = "<group>"; };
 		984AEFE2ABF45B8A806808DA /* ym2612.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ym2612.c; path = genesis_plus_gx/core/sound/ym2612.c; sourceTree = "<group>"; };
 		98779A3FCEC691433B7AC2E6 /* zstd_decompress.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zstd_decompress.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/decompress/zstd_decompress.c"; sourceTree = "<group>"; };
 		98FC0CAB808924FA11F4FD55 /* zstd_decompress.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zstd_decompress.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/doc/educational_decoder/zstd_decompress.c"; sourceTree = "<group>"; };
 		9DBD69A4A329A2D7798AA178 /* genesis.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = genesis.c; path = genesis_plus_gx/core/genesis.c; sourceTree = "<group>"; };
 		9E8236E550A43044DEADDCE5 /* eeprom_spi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = eeprom_spi.c; path = genesis_plus_gx/core/cart_hw/eeprom_spi.c; sourceTree = "<group>"; };
-		A0CA126308D83122FDD88A7C /* Nes_Vrc6.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nes_Vrc6.cpp; path = laines/lib/Nes_Vrc6.cpp; sourceTree = "<group>"; };
-		A280B332E0AA2C9FC3FDAE8B /* mapper66.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper66.cpp; path = laines/src/mappers/mapper66.cpp; sourceTree = "<group>"; };
+		A2381A2AD61372FE686466C7 /* mapper66.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper66.cpp; path = laines/src/mappers/mapper66.cpp; sourceTree = "<group>"; };
+		A533D25E86AC0B1145EFFF4D /* mapper9.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper9.cpp; path = laines/src/mappers/mapper9.cpp; sourceTree = "<group>"; };
 		A609B0C70B6C025B7A2AA276 /* zstd_v04.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zstd_v04.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/legacy/zstd_v04.c"; sourceTree = "<group>"; };
 		A6EA0BA6949792C016A1A3B2 /* system.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = system.c; path = genesis_plus_gx/core/system.c; sourceTree = "<group>"; };
+		A767502805F6DFCE516F8210 /* Blip_Buffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Blip_Buffer.cpp; path = laines/lib/Blip_Buffer.cpp; sourceTree = "<group>"; };
 		A84E862839D4D17742A1309C /* gzjoin.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzjoin.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/examples/gzjoin.c"; sourceTree = "<group>"; };
 		A9D88FC6E891581FE8D2E6A7 /* error_private.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = error_private.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/common/error_private.c"; sourceTree = "<group>"; };
 		AB0EB8D69FA245A382B273C7 /* crc32.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/crc32.c"; sourceTree = "<group>"; };
-		AB12128F7CB59AF41618C7BD /* apu.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = apu.cpp; path = laines/src/apu.cpp; sourceTree = "<group>"; };
 		AC762D2A9B227C2871C710A1 /* compress.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = compress.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/compress.c"; sourceTree = "<group>"; };
+		AD9FEB7555576151F287F0B6 /* apu.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = apu.cpp; path = laines/src/apu.cpp; sourceTree = "<group>"; };
 		B1FB30F97EB185C53CD7DB6D /* cd_cart.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cd_cart.c; path = genesis_plus_gx/core/cd_hw/cd_cart.c; sourceTree = "<group>"; };
 		B350BFDEA87F33FC8831DBEE /* synthesis.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = synthesis.c; path = genesis_plus_gx/core/sound/tremor/synthesis.c; sourceTree = "<group>"; };
 		B3ECC1616C998E3E3283F8EB /* ssp16.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ssp16.c; path = genesis_plus_gx/core/cart_hw/svp/ssp16.c; sourceTree = "<group>"; };
-		B43F0B2BC45A3659655D6656 /* apu_snapshot.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = apu_snapshot.cpp; path = laines/lib/apu_snapshot.cpp; sourceTree = "<group>"; };
 		B53C6550158D2E43B4867A87 /* emscripten.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = emscripten.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/build/single_file_libs/examples/emscripten.c"; sourceTree = "<group>"; };
 		B53CB9203AABAB69E23F47AE /* zstd_v01.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zstd_v01.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/legacy/zstd_v01.c"; sourceTree = "<group>"; };
 		B5668EAE25BCA59B6FC62B9C /* threading.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = threading.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/common/threading.c"; sourceTree = "<group>"; };
-		B5ABA8306E9D01CE6C00F552 /* mapper3.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper3.cpp; path = laines/src/mappers/mapper3.cpp; sourceTree = "<group>"; };
 		B6427A56FE5FBA7E0D6B3610 /* sound.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sound.c; path = genesis_plus_gx/core/sound/sound.c; sourceTree = "<group>"; };
 		B660DF22AD2C35EC615AC82F /* libchdr_bitstream.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = libchdr_bitstream.c; path = genesis_plus_gx/core/cd_hw/libchdr/src/libchdr_bitstream.c; sourceTree = "<group>"; };
 		B6B33C92C1682316659AE8D5 /* gzappend.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzappend.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/examples/gzappend.c"; sourceTree = "<group>"; };
 		B70887F92A3CED74DD8BB9C7 /* opll.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = opll.c; path = genesis_plus_gx/core/sound/opll.c; sourceTree = "<group>"; };
+		B7D5E94D463131AEDC71C65B /* cartridge.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = cartridge.cpp; path = laines/src/cartridge.cpp; sourceTree = "<group>"; };
 		BB529C4A67BDEACCF941C194 /* info.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = info.c; path = genesis_plus_gx/core/sound/tremor/info.c; sourceTree = "<group>"; };
 		BB57C49004D2C8556739F24A /* ios_bridge.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = ios_bridge.cpp; sourceTree = "<group>"; };
 		C0D424E20DFF71934E817E44 /* zstd_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zstd_common.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/common/zstd_common.c"; sourceTree = "<group>"; };
+		C0EEF3F171A87F6FAE6EC35A /* mapper5.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper5.cpp; path = laines/src/mappers/mapper5.cpp; sourceTree = "<group>"; };
 		C117A5CCE7ED4129D5892CB5 /* sportspad.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sportspad.c; path = genesis_plus_gx/core/input_hw/sportspad.c; sourceTree = "<group>"; };
+		C14B8DDA46983B9038AC94F3 /* mapper11.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper11.cpp; path = laines/src/mappers/mapper11.cpp; sourceTree = "<group>"; };
+		C4CC37B02D626C6E867B7617 /* Nes_Apu.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nes_Apu.cpp; path = laines/lib/Nes_Apu.cpp; sourceTree = "<group>"; };
 		C52007BC6454D55791B0DD5E /* state.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = state.c; path = genesis_plus_gx/core/state.c; sourceTree = "<group>"; };
-		C52A51CA8B5A2ECDB7FC827D /* savestate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = savestate.cpp; path = laines/src/savestate.cpp; sourceTree = "<group>"; };
 		C8EBA135897BAED5A4E8B287 /* ym3438.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ym3438.c; path = genesis_plus_gx/core/sound/ym3438.c; sourceTree = "<group>"; };
 		CA41F81170AF2A11A7BFD32F /* zpipe.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zpipe.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/examples/zpipe.c"; sourceTree = "<group>"; };
 		CE9BF87775A11CB08B3BDAA0 /* psg.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = psg.c; path = genesis_plus_gx/core/sound/psg.c; sourceTree = "<group>"; };
 		CEA632107B50B89DA57FCFCD /* zstd_v06.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zstd_v06.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/legacy/zstd_v06.c"; sourceTree = "<group>"; };
 		D250A190FC27984952981D90 /* m68kcpu.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = m68kcpu.c; path = genesis_plus_gx/core/m68k/m68kcpu.c; sourceTree = "<group>"; };
-		D355D04318729262FC798F84 /* cpu.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = cpu.cpp; path = laines/src/cpu.cpp; sourceTree = "<group>"; };
 		D37B69567F06E5DE52B74026 /* zbuff_decompress.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zbuff_decompress.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/deprecated/zbuff_decompress.c"; sourceTree = "<group>"; };
-		D4874BFC710C40F14043AC29 /* mapper34.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper34.cpp; path = laines/src/mappers/mapper34.cpp; sourceTree = "<group>"; };
 		D4FC23DE6144A3C9ECC7A45B /* floor1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = floor1.c; path = genesis_plus_gx/core/sound/tremor/floor1.c; sourceTree = "<group>"; };
-		D5CE9A40A6C4E12DEBE80947 /* cartridge.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = cartridge.cpp; path = laines/src/cartridge.cpp; sourceTree = "<group>"; };
 		D5D12365C7B5F9A40040B227 /* floor0.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = floor0.c; path = genesis_plus_gx/core/sound/tremor/floor0.c; sourceTree = "<group>"; };
 		DA1F6C2548274E6931127358 /* megasd.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = megasd.c; path = genesis_plus_gx/core/cart_hw/megasd.c; sourceTree = "<group>"; };
 		DDB6F357E29AC00D86E91C42 /* enough.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = enough.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/examples/enough.c"; sourceTree = "<group>"; };
-		DE22E2637F5DD9482CB07B27 /* mapper5.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper5.cpp; path = laines/src/mappers/mapper5.cpp; sourceTree = "<group>"; };
 		DED4B0FBFDFF3AAE93A6F879 /* teamplayer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = teamplayer.c; path = genesis_plus_gx/core/input_hw/teamplayer.c; sourceTree = "<group>"; };
-		E129A56E58658EB479B22FF3 /* Nes_Namco.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Nes_Namco.cpp; path = laines/lib/Nes_Namco.cpp; sourceTree = "<group>"; };
-		E20C54192CEDDCE90999B451 /* mapper2.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper2.cpp; path = laines/src/mappers/mapper2.cpp; sourceTree = "<group>"; };
 		E2DD0A30CFBADFC400E226D6 /* pcm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pcm.c; path = genesis_plus_gx/core/cd_hw/pcm.c; sourceTree = "<group>"; };
+		E524A21F8790B39CAEE99F9A /* mapper10.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper10.cpp; path = laines/src/mappers/mapper10.cpp; sourceTree = "<group>"; };
 		E5EBF8B23818B0049347E92E /* graphic_board.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = graphic_board.c; path = genesis_plus_gx/core/input_hw/graphic_board.c; sourceTree = "<group>"; };
+		E706D01FE0985E11ECFD01AA /* mapper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper.cpp; path = laines/src/mapper.cpp; sourceTree = "<group>"; };
+		E92BCC8A58F4BDE756730488 /* mapper1.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper1.cpp; path = laines/src/mappers/mapper1.cpp; sourceTree = "<group>"; };
 		E97DB96635D1028130EA5C01 /* framing.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = framing.c; path = genesis_plus_gx/core/sound/tremor/framing.c; sourceTree = "<group>"; };
 		EA04102BF0FC389798B3D8C6 /* emulator_core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = emulator_core.hpp; sourceTree = "<group>"; };
 		EAA34F6F74831B6D317EA943 /* Delta.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Delta.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/lzma-24.05/src/Delta.c"; sourceTree = "<group>"; };
-		EB6045B98CF47B92FC234549 /* mapper9.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper9.cpp; path = laines/src/mappers/mapper9.cpp; sourceTree = "<group>"; };
 		EF9663A09B5CBE7A893E212C /* gzread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzread.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/gzread.c"; sourceTree = "<group>"; };
+		F3034D8F1E13C4B33D69E976 /* mapper24.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper24.cpp; path = laines/src/mappers/mapper24.cpp; sourceTree = "<group>"; };
 		F3ECC150B1D363189CA510B5 /* fitblk.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fitblk.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zlib-1.3.1/examples/fitblk.c"; sourceTree = "<group>"; };
 		F97D9C41892869694533676E /* activator.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = activator.c; path = genesis_plus_gx/core/input_hw/activator.c; sourceTree = "<group>"; };
 		FAFFC7374FFB735D72B3FD30 /* Lzma86Dec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Lzma86Dec.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/lzma-24.05/src/Lzma86Dec.c"; sourceTree = "<group>"; };
 		FB388BD2A23F256E43C035D9 /* loadrom.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loadrom.c; path = genesis_plus_gx/core/loadrom.c; sourceTree = "<group>"; };
 		FBD8F961A460BB2902B7D80D /* libchdr_flac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = libchdr_flac.c; path = genesis_plus_gx/core/cd_hw/libchdr/src/libchdr_flac.c; sourceTree = "<group>"; };
 		FBDFDC3A156C40BBE74D0738 /* debug.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = debug.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/common/debug.c"; sourceTree = "<group>"; };
-		FC40E43FB536E53F45F98986 /* mapper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mapper.cpp; path = laines/src/mapper.cpp; sourceTree = "<group>"; };
 		FC65580287E7951E35C22C0C /* zdict.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zdict.c; path = "genesis_plus_gx/core/cd_hw/libchdr/deps/zstd-1.5.6/lib/dictBuilder/zdict.c"; sourceTree = "<group>"; };
 		FE59BCF8A873C4BA9C1CF9B2 /* sms_ntsc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sms_ntsc.c; path = genesis_plus_gx/core/ntsc/sms_ntsc.c; sourceTree = "<group>"; };
 		FED8AA3C45C08B6DA3A25CE3 /* md_ntsc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = md_ntsc.c; path = genesis_plus_gx/core/ntsc/md_ntsc.c; sourceTree = "<group>"; };
@@ -228,36 +228,7 @@
 		CDA38990DE8DAA36F929031C /* Exceptions for "iosApp" folder in "iosApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				emulator_context.cpp,
 				Info.plist,
-				ios_bridge.cpp,
-				laines/lib/apu_snapshot.cpp,
-				laines/lib/Blip_Buffer.cpp,
-				laines/lib/Multi_Buffer.cpp,
-				laines/lib/Nes_Apu.cpp,
-				laines/lib/Nes_Namco.cpp,
-				laines/lib/Nes_Oscs.cpp,
-				laines/lib/Nes_Vrc6.cpp,
-				laines/lib/Nonlinear_Buffer.cpp,
-				laines/src/apu.cpp,
-				laines/src/cartridge.cpp,
-				laines/src/cpu.cpp,
-				laines/src/joypad.cpp,
-				laines/src/mapper.cpp,
-				laines/src/mappers/mapper1.cpp,
-				laines/src/mappers/mapper2.cpp,
-				laines/src/mappers/mapper3.cpp,
-				laines/src/mappers/mapper4.cpp,
-				laines/src/mappers/mapper5.cpp,
-				laines/src/mappers/mapper7.cpp,
-				laines/src/mappers/mapper9.cpp,
-				laines/src/mappers/mapper10.cpp,
-				laines/src/mappers/mapper11.cpp,
-				laines/src/mappers/mapper24.cpp,
-				laines/src/mappers/mapper34.cpp,
-				laines/src/mappers/mapper66.cpp,
-				laines/src/ppu.cpp,
-				laines/src/savestate.cpp,
 			);
 			target = 7C0B8F7591B96A0FE003EF84 /* iosApp */;
 		};
@@ -274,6 +245,8 @@
 		};
 		C11B5CE391AD4D5C801F8456 /* Configuration */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = Configuration;
 			sourceTree = "<group>";
 		};
@@ -290,40 +263,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0274E02E32DE75018BD1F4A1 /* laines */ = {
-			isa = PBXGroup;
-			children = (
-				2978BD60205309FB4AEADF2F /* Blip_Buffer.cpp */,
-				950DAAF3C031727803A5E0BD /* Multi_Buffer.cpp */,
-				0375B3ADF56D4C9C3913C14E /* Nes_Apu.cpp */,
-				E129A56E58658EB479B22FF3 /* Nes_Namco.cpp */,
-				964DBB0507E6CDABBBD05A64 /* Nes_Oscs.cpp */,
-				A0CA126308D83122FDD88A7C /* Nes_Vrc6.cpp */,
-				34757825D2AF31BEF729F06F /* Nonlinear_Buffer.cpp */,
-				B43F0B2BC45A3659655D6656 /* apu_snapshot.cpp */,
-				AB12128F7CB59AF41618C7BD /* apu.cpp */,
-				D5CE9A40A6C4E12DEBE80947 /* cartridge.cpp */,
-				D355D04318729262FC798F84 /* cpu.cpp */,
-				86A2805E62C1A7B842BD1603 /* joypad.cpp */,
-				FC40E43FB536E53F45F98986 /* mapper.cpp */,
-				2C8C02CD8616035EEEBE8380 /* mapper1.cpp */,
-				778E93D9F5271D4A05114571 /* mapper10.cpp */,
-				39D5AC9330BDE0CA6E6D420C /* mapper11.cpp */,
-				E20C54192CEDDCE90999B451 /* mapper2.cpp */,
-				5D1CE64E0AF5341709AE5FA0 /* mapper24.cpp */,
-				B5ABA8306E9D01CE6C00F552 /* mapper3.cpp */,
-				D4874BFC710C40F14043AC29 /* mapper34.cpp */,
-				7750B63F593AF779CC15E80D /* mapper4.cpp */,
-				DE22E2637F5DD9482CB07B27 /* mapper5.cpp */,
-				A280B332E0AA2C9FC3FDAE8B /* mapper66.cpp */,
-				326F0D78E5153AF895180E8D /* mapper7.cpp */,
-				EB6045B98CF47B92FC234549 /* mapper9.cpp */,
-				5B89A9FA4C89F5AC6D31530D /* ppu.cpp */,
-				C52A51CA8B5A2ECDB7FC827D /* savestate.cpp */,
-			);
-			name = laines;
-			sourceTree = "<group>";
-		};
 		1BD025F3E7A5E7230374F735 /* Emulator */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,19 +274,19 @@
 				11F714EED4E2CFB6C0A98B49 /* nes_core.hpp */,
 				971CBB3C942A0C5AA2F8E511 /* genesis_core.hpp */,
 				67BECCC0717A02AF83992DC1 /* osd.h */,
-				57EE64563BAA19670D1CE566,
+				57EE64563BAA19670D1CE566 /* laines */,
 				87D0FEA2016DBB621B048564 /* genesis_plus_gx */,
 				A5658413087CAFC31088A514 /* laines */,
-				0274E02E32DE75018BD1F4A1 /* laines */,
 			);
 			name = Emulator;
 			path = iosApp;
 			sourceTree = "<group>";
 		};
-		57EE64563BAA19670D1CE566 = {
+		57EE64563BAA19670D1CE566 /* laines */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			path = laines;
 			sourceTree = "<group>";
 		};
 		87D0FEA2016DBB621B048564 /* genesis_plus_gx */ = {
@@ -507,8 +446,36 @@
 		A5658413087CAFC31088A514 /* laines */ = {
 			isa = PBXGroup;
 			children = (
+				A767502805F6DFCE516F8210 /* Blip_Buffer.cpp */,
+				8E92D7F84DEA8F879B25325E /* Multi_Buffer.cpp */,
+				C4CC37B02D626C6E867B7617 /* Nes_Apu.cpp */,
+				829CDC6E39996DE7AE6A5723 /* Nes_Namco.cpp */,
+				1F2A38ECF6802DB0E6FD0163 /* Nes_Oscs.cpp */,
+				844D2DAEB3B28503FDCF2A94 /* Nes_Vrc6.cpp */,
+				07A2AD3B74995549D74EA11D /* Nonlinear_Buffer.cpp */,
+				4B04C271D5713533B031DE25 /* apu_snapshot.cpp */,
+				AD9FEB7555576151F287F0B6 /* apu.cpp */,
+				B7D5E94D463131AEDC71C65B /* cartridge.cpp */,
+				743D11261C36C9ADE20BFEE9 /* cpu.cpp */,
+				63CF3F5AD8113D3D6A808026 /* joypad.cpp */,
+				E706D01FE0985E11ECFD01AA /* mapper.cpp */,
+				E92BCC8A58F4BDE756730488 /* mapper1.cpp */,
+				E524A21F8790B39CAEE99F9A /* mapper10.cpp */,
+				C14B8DDA46983B9038AC94F3 /* mapper11.cpp */,
+				962A2B8563B53992BC5BE56A /* mapper2.cpp */,
+				F3034D8F1E13C4B33D69E976 /* mapper24.cpp */,
+				227A36F82FD645979B1B7D2A /* mapper3.cpp */,
+				7B16C13A23EBEF9020644AB9 /* mapper34.cpp */,
+				734C5E096812BB98DE2DE65A /* mapper4.cpp */,
+				C0EEF3F171A87F6FAE6EC35A /* mapper5.cpp */,
+				A2381A2AD61372FE686466C7 /* mapper66.cpp */,
+				7FFBC777D1C6EC7DD6826003 /* mapper7.cpp */,
+				A533D25E86AC0B1145EFFF4D /* mapper9.cpp */,
+				04E997F647D8F21057354A0C /* ppu.cpp */,
+				4B10A5959E2757A3B9ECD210 /* savestate.cpp */,
 			);
 			name = laines;
+			path = laines;
 			sourceTree = "<group>";
 		};
 		BB026E6A2FF79595A9721E4E = {
@@ -561,7 +528,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 2600;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					7C0B8F7591B96A0FE003EF84 = {
 						CreatedOnToolsVersion = 16.2;
@@ -626,33 +593,33 @@
 			files = (
 				628339446CB5F8E32E20764F /* ios_bridge.cpp in Sources */,
 				96F66145558548CBA812E5CE /* emulator_context.cpp in Sources */,
-				18305A4AA66877CFEF99D060 /* Blip_Buffer.cpp in Sources */,
-				5F8BB2C54A1BC7ECF489A45C /* Multi_Buffer.cpp in Sources */,
-				CF4CCB884770766EA472A608 /* Nes_Apu.cpp in Sources */,
-				603C200CF627E70A992F6A0E /* Nes_Namco.cpp in Sources */,
-				ECB274CBF4BC774AFC89437B /* Nes_Oscs.cpp in Sources */,
-				CE0E46BEFD06E31553DDA13A /* Nes_Vrc6.cpp in Sources */,
-				E952609706EB22D072DE1751 /* Nonlinear_Buffer.cpp in Sources */,
-				42D3BD8EE2766589158D4B44 /* apu_snapshot.cpp in Sources */,
-				D54CA55527715D968E3A7F9E /* apu.cpp in Sources */,
-				D3DEDA7501A6536BA65D69DF /* cartridge.cpp in Sources */,
-				218E5E6C39B6C3629E22ABE6 /* cpu.cpp in Sources */,
-				23146E8118D4030BD7DC04FB /* joypad.cpp in Sources */,
-				37A675B0169BEAE8C0B77A64 /* mapper.cpp in Sources */,
-				36C745D86E9AE2FE5ED08418 /* mapper1.cpp in Sources */,
-				AAED84218A00C95080F22138 /* mapper10.cpp in Sources */,
-				EE51F207A95E6FDAC96824E0 /* mapper11.cpp in Sources */,
-				E990D9D25B1D8AB289350DA8 /* mapper2.cpp in Sources */,
-				0894C122D2BAC144CE06E530 /* mapper24.cpp in Sources */,
-				876C08F7BB4214D5DF54251B /* mapper3.cpp in Sources */,
-				7A597DAD062D80273B5CE96A /* mapper34.cpp in Sources */,
-				689A9840770ABA082D42E25E /* mapper4.cpp in Sources */,
-				9CEAABD6F535E20A05FF85DC /* mapper5.cpp in Sources */,
-				08EE0CEBA8C07781C9B401C7 /* mapper66.cpp in Sources */,
-				74942930BB3BC9BB4707442F /* mapper7.cpp in Sources */,
-				AFECBFFE0E05CDB26C7A449C /* mapper9.cpp in Sources */,
-				A972340A237381E9B5517D54 /* ppu.cpp in Sources */,
-				65F778B5A9697E32BC5BC0F6 /* savestate.cpp in Sources */,
+				F73812F4191B0759689EA787 /* Blip_Buffer.cpp in Sources */,
+				A61C6F2151651E72757E0854 /* Multi_Buffer.cpp in Sources */,
+				4A634533A56006755716D41E /* Nes_Apu.cpp in Sources */,
+				A406CAF0025C512E238C27EB /* Nes_Namco.cpp in Sources */,
+				691FB9DBC454B17D0DD22F44 /* Nes_Oscs.cpp in Sources */,
+				6764B9484377005E6DD54F2A /* Nes_Vrc6.cpp in Sources */,
+				CD413F07B1F351E26EFC2A86 /* Nonlinear_Buffer.cpp in Sources */,
+				83703BA04951D128B6056C6F /* apu_snapshot.cpp in Sources */,
+				4F3BBE575ABD8E00FAB6D095 /* apu.cpp in Sources */,
+				7B5A91BAA158B95EE7014DE6 /* cartridge.cpp in Sources */,
+				0D9330FF71BC7577560F6628 /* cpu.cpp in Sources */,
+				F514F3B7D7A6D5FBCDADD043 /* joypad.cpp in Sources */,
+				B2780C6491F6AC6163520CC5 /* mapper.cpp in Sources */,
+				E4FACF36AE37AFFDA2FB6403 /* mapper1.cpp in Sources */,
+				0CF4B10D522ECEE29D6DF55E /* mapper10.cpp in Sources */,
+				010351037AED8C0E7512195D /* mapper11.cpp in Sources */,
+				18BE50D260EDEFE6D2F56970 /* mapper2.cpp in Sources */,
+				475BB76404042B739630E573 /* mapper24.cpp in Sources */,
+				59FAA742997877C05013AD95 /* mapper3.cpp in Sources */,
+				3F6D84B06C0004CE08B583F7 /* mapper34.cpp in Sources */,
+				A48E54F4EC331BB26C2A1EB1 /* mapper4.cpp in Sources */,
+				0669D0E65818ED9414481297 /* mapper5.cpp in Sources */,
+				F25C9D1DA4B08115A9911E28 /* mapper66.cpp in Sources */,
+				DEA9F30146C6FA90CFF139E4 /* mapper7.cpp in Sources */,
+				B3C10CCF59AF1FC3C085B46E /* mapper9.cpp in Sources */,
+				AC08B3AA06D085D9B2FD19EE /* ppu.cpp in Sources */,
+				9E74B2727000E6B350CA8FA5 /* savestate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +629,7 @@
 		0DB5A9656CDF52014F3BC27F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -763,7 +731,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -772,6 +739,7 @@
 		66F81FEDACE02D17A97BC0C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -866,7 +834,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
