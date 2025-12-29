@@ -29,7 +29,7 @@ val appModule = module {
     // ScreenModels
     factory { GameListScreenModel(get()) }
     factory { GameDetailScreenModel(get()) }
-    factory { GamePlayerScreenModel(get(), get(), get()) }
+    factory { GamePlayerScreenModel(get(), get(), get(), get<org.retrofun.project.presentation.gameplayer.AudioPlayer>()) }
 }
 
 expect val platformModule: Module

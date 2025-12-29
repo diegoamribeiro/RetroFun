@@ -66,14 +66,17 @@ data class GamePlayerScreen(val gameId: String) : Screen {
             }
         ) { padding ->
             Box(modifier = Modifier.fillMaxSize().background(Color.Black).padding(padding)) {
+                println("GamePlayerScreen: Recomposing - currentFrame is ${if (state.currentFrame != null) "NOT NULL" else "NULL"}")
+                
                 state.currentFrame?.toImageBitmap()?.let { bitmap ->
+                    println("GamePlayerScreen: Drawing Image - bitmap=${bitmap.width}x${bitmap.height}")
                     Image(
                         bitmap = bitmap,
                         contentDescription = "Game Screen",
                         modifier = Modifier.fillMaxSize(),
                         contentScale = ContentScale.Fit
                     )
-                }
+                } ?: println("GamePlayerScreen: toImageBitmap() returned NULL or currentFrame is NULL")
                 
                 VirtualController(onInputUpdate = screenModel::onControllerInput)
                 
